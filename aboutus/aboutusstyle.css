@@ -1,0 +1,69 @@
+*{
+    font-family: 'Unbounded', serif; 
+}
+
+body {
+    background-image: url(../Star\ BG.png) !important;
+}
+
+#toggle {
+    background-color: #119da1 ;
+}
+
+#toggle:hover {
+    color:  #571f58;
+    background-color: #57b12e;
+}
+
+.linknav {
+    color:  #9ef576;
+}
+
+.linknav:hover {
+    color:  #119da1;
+}
+
+.linknav:active {
+    color:  #571f58;
+}
+
+.redes {
+    background-color: #9ef576;
+    border-radius: 5px;
+    color: #070508;
+    outline-color: #57b12e;
+    opacity: 1;
+}
+
+.redes:hover {
+    color:  #571f58;
+    background-color: #119da1;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.botones {
+    opacity: 0.9;
+}
+
+.img-thumbnail {
+    width: 400px;
+}
+
+.card {
+    color: #ff7b00;
+    text-align: left;
+    background-color: #070508 !important;
+    font-size: 0.5cm;
+}
+
+.legados {
+    color: #9ef576;
+    text-decoration-line: none;
+}
+
+.legados:hover {
+    color: #c525c8;
+}
