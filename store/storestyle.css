@@ -1,0 +1,90 @@
+body {
+    background-image: url(../Star\ BG.png);
+}
+
+.navbar {
+    font-family: 'Unbounded', serif; 
+}
+
+.copyright {
+    font-family: 'Unbounded', serif;
+}
+
+#toggle {
+    background-color: #119da1 ;
+}
+
+#toggle:hover {
+    color:  #571f58;
+    background-color: #57b12e;
+}
+
+.linknav {
+    color:  #9ef576;
+}
+
+.linknav:hover {
+    color:  #119da1;
+}
+
+.linknav:active {
+    color:  #571f58;
+}
+
+.redes {
+    background-color: #9ef576;
+    border-radius: 5px;
+    color: #070508;
+    outline-color: #57b12e;
+    opacity: 1;
+}
+
+.redes:hover {
+    color:  #571f58;
+    background-color: #119da1;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.card-body {
+    background-color: #070508;
+    font-family: 'Unbounded', serif;
+}
+
+.botones {
+    opacity: 0.9;
+}
+
+.card {
+    border: 0cm !important;
+}
+
+.card:hover {
+    transition: 1s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.col {
+    color: #9ef576;
+}
+
+.compra {
+    color: #070508 !important; 
+    background-color: #ff7b00 !important;
+    border-color: #571f58 !important;
+    opacity: 0.8 !important;
+}
+
+.compra:hover {
+    color: #070508 !important; 
+    background-color: #1ce6ed !important;
+    transition: 1s;
+    opacity: 1 !important;
+}
+
+
+
