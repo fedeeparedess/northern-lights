@@ -1,13 +1,9 @@
-body {
-    background-image: url(../Star\ BG.png);
-}
-
-.navbar {
+*{
     font-family: 'Unbounded', serif; 
 }
 
-.copyright {
-    font-family: 'Unbounded', serif;
+body {
+    background-image: url(../Star\ BG.png);
 }
 
 #toggle {
@@ -48,39 +44,32 @@ body {
     opacity: 1;
 }
 
-.card-body {
-    background-color: #070508;
-    font-family: 'Unbounded', serif;
-}
-
 .botones {
     opacity: 0.9;
+    border-color: #9ef576 !important;
 }
 
-.card {
-    border: 0cm !important;
-}
-
-.card:hover {
+.botones:hover {
+    opacity: 1 !important;
+    background-color: #bc1fbe !important;
+    color: #070508 !important;
+    scale: 1.1;
     transition: 1s;
 }
 
-.col {
-    color: #9ef576;
+h5 , p {
+    color: #23dde3 !important;
+    font-size: 1cm !important;
 }
 
-.compra {
-    color: #070508 !important; 
-    background-color: #ff7b00 !important;
-    border-color: #571f58 !important;
-    opacity: 0.8 !important;
+.card {
+    background-color: #070508  !important;
 }
 
-.compra:hover {
-    color: #070508 !important; 
-    background-color: #1ce6ed !important;
-    opacity: 1 !important;
+.img-fluid:hover {
+    z-index: 3;
+    align-content: center !important;
+    scale: 1.8;
+    transition: 1s;
 }
-
-
 
